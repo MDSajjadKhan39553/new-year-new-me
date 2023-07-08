@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+header{
+    height: 800px;
+    background-image: url('asset/banner/banner2.png');
+    background-size: cover;
+}
+.banner-title{
+    padding: 270px 150px 150px 700px;
+    text-align: right;
+}
+.title{
+    font-size: 65px;
+    color: #151414;
+    font-weight: 700;
+}
+.description{
+    font-size: 16px;
+    color: #444343;
+    font-weight: 400;
+    margin-top: 30px;
+}
+.primery-btn{
+    padding: 16px 20px;
+    background-color: #F15B22;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+/* banner style end */
+main{
+    background-color: #F3F3F3;
+}
+.container{
+    margin: 0 150px;
+}
+.may-failures{
+    display: flex;
+    margin-top: 140px;
+}
+/* .may-failures>img{
+    background-color: #F15B22;
+} */
+.failures-list{
+    margin: 300px 0 0 30px;
+}
+.failures-title{
+    color:#151414;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.failures-des{
+    color:#444343;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+.failures-item li{
+    list-style: none;
+    margin-top: 10px;
+}
+/* my plan style  */
+.plan-title{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #151414;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 700;
+}
+.my-plan{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-family: Work Sans;
+}
+.item-title{
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #151414;
+}
+.item-des{
+    margin-top: 15px;
+    font-size: 25px;
+    font-weight: 500;
+    color: #737272;
+}
+/* call now style */
+.call-now{
+    background-image: url('asset/watch.png'),url('asset/gradient2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    padding: 60px 600px 60px 60px;
+    border-radius: 10px;
+    margin-top: 125px;
+    margin-bottom: 125px;
+}
+.call-title{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.call-btn{
+    /* margin-top: 25px; */
+    padding: 20px 25px ;
+    color: #F15B22;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+}
+/* blog style*/
+.blog-title{
+    margin-top: 30px;
+    font-size: 60px;
+    font-weight: 700;
+    color: #151414;
+    text-align: center;
+}
+.my-blog{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 100px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 50px;
+}
+.blog{
+    text-align: justify;
+}
+.title{
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #151414;
+}
+.article{
+    margin-top: 15px;
+    font-size: 25px;
+    font-weight: 500;
+    color: #737272;
+}
+/* footer style */
+footer{
+    background: #151414;
+}
+.footer-content{
+    display: flex;
+    gap: 300px;
+    padding: 130px 0;
+}
+.future{
+    color: #F8F8F8;
+    font-family: Work Sans;
+}
+.future-title{
+    font-size: 45px;
+    font-weight: 700;
+}
+.future-des{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 16px;
+}
+.future-email{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 24px;
+}
+.future-phone{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 24px;
+    margin-bottom: 30px;
+}
+.subcrib{
+    color: #FFF;
+    font-family: Work Sans;
+}
+.subcrib-title{
+    font-size: 25px;
+    font-weight: 600;
+}
+input[type=email]{
+    color: #F3F3F3;
+    background: #151414;
+    font-size: 18px;
+    font-weight: 400;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 20px 150px 20px 20px;
+    margin-top: 30px;
+}
+input[type=submit]{
+    color: #F15B22;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    padding:20px 35px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 35px;
+}
